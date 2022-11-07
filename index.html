@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rhymebrain</title>
+</head>
+<body>
+    <h1>Rhymebrain</h1>
+    <p>When a given work is put into the seach box it will show words that rhyme<p>
+    <form id="vestigal">
+        <input type="text" placeholder="Search" aria-label="Search" name="query-text"><button type="button" id="enter">Search</button>
+    </form>
+    <div id="results" style="display: flex; flex-wrap: wrap;" >
+        <p>Results</p>
+        <p id="results-paragraph"></p>
+    </div>
+<script src="rhymes.js"></script>
+</body>
+</html>
